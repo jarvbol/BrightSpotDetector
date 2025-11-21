@@ -48,7 +48,6 @@ int BrightSpotDetector::get_gaussian_sigma() const
     return gaussian_sigma;
 }
 
-// Сеттеры
 void BrightSpotDetector::set_crop_size_percent(int percent)
 {
     crop_size_percent = percent;
