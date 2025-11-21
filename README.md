@@ -30,18 +30,28 @@ macOS/Linux:
 g++ -std=c++17 -Wall -Wextra -g3 main.cpp BrightSpotDetector.cpp -o detector `pkg-config --cflags --libs opencv4`
 ```
 
-Windows (MinGW / MSYS2):
+Windows (MinGW/MSYS2):
 ```bash
 g++ -std=c++17 -Wall -Wextra -g3 main.cpp BrightSpotDetector.cpp -o detector.exe `pkg-config --cflags --libs opencv4`
 ```
+
+---
 
 ## Usage
 
 1. Place your image as test.png in the project root.
 2. Run the executable:
+    macOS/Linux:
 ```bash
 ./detector
 ```
+    
+  Windows (MinGW/MSYS2):
+```bash
+detector.exe
+```
+
+---
 
 ## Adjusting Parameters
 
