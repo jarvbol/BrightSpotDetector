@@ -41,12 +41,12 @@ g++ -std=c++17 -Wall -Wextra -g3 main.cpp BrightSpotDetector.cpp -o detector.exe
 
 1. Place your image as test.png in the project root.
 2. Run the executable:
-    macOS/Linux:
+macOS/Linux:
 ```bash
 ./detector
 ```
     
-  Windows (MinGW/MSYS2):
+Windows (MinGW/MSYS2):
 ```bash
 detector.exe
 ```
@@ -64,8 +64,17 @@ detector.exe
 | `max_wh_percent`	| int	| 15 |	Maximum object width/height as % of frame |
 | `gaussian_sigma`	| int	| 10 |	Gaussian penalty for distance from center |
 
+---
+
+## Example of the operation
 
 
+
+---
+
+## License
+
+MIT — feel free to use, modify, and distribute.
 
 
 
