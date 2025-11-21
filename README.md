@@ -76,7 +76,5 @@ detector.exe
 
 ## License
 
-MIT — feel free to use, modify, and distribute.
-
-
-
+This project is open-source and licensed under the MIT License.
+See the LICENSE file in the root repository for details.
