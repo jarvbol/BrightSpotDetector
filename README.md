@@ -18,7 +18,7 @@ A C++ implementation of a bright spot detector.
 
 - **C++17 compiler** (GCC 7+, Clang 5+, MSVC 2017+)
 - **OpenCV 4.x**
-- **pkg-config** (Linux/macOS) — для автоматического поиска библиотек
+- **pkg-config** (Linux/macOS) 
 - **CMake 3.16+** (optional, for building with CMake)
 
 ---
