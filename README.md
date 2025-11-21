@@ -68,6 +68,7 @@ detector.exe
 
 ## Example of the operation
 
+<img width="852" height="422" alt="Result" src="https://github.com/user-attachments/assets/2960da3c-6782-4d61-9757-36b100e67062" />
 
 
 ---
