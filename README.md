@@ -46,6 +46,7 @@ g++ -std=c++17 -Wall -Wextra -g3 main.cpp BrightSpotDetector.cpp -o detector.exe
 ## Adjusting Parameters
 
 | Parameter |	Type | Default | Description |
+|---------|--------|--------|--------|
 | `crop_size_percent`	| int	| 28	| Percentage of image borders to exclude from search (0–49) |
 | `erode_bbox`	| int |	50 |	Percentage to expand bbox for background brightness calculation |
 | `min_brightness_factor`	| float	| 1.3 |	Minimum brightness ratio to be considered a bright spot |
